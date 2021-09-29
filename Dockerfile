@@ -6,5 +6,5 @@ RUN pip3 install --upgrade pip &&\
     pip3 install numpy pandas sklearn tqdm
 
 COPY helloWorld.py
-CMD python helloWorld.py
+ENTRYPOINT python helloWorld.py
 
